@@ -1,0 +1,92 @@
+
+body{
+    background-color: rgba(245, 231, 205, 0.808);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+h1,h3{
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    gap: 50px;
+    margin: 20px;
+    width: 370px;
+    
+}
+li a{
+    text-decoration: none;
+    color: black;
+    padding: 2px;
+}
+.navbar{
+    height: auto;
+    background-color: rgba(131, 163, 173, 0.411);
+    width: auto;
+}
+label{
+    font-weight: bold;
+    text-align: right;
+}
+.form-frame{
+    display: grid;
+    grid-template-columns: 15% 70%;
+    gap: 10px;
+    margin: 20px;
+}
+input{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+a:link{
+    color: black;
+}
+a:visited{
+    color: rgb(2, 2, 51);
+}
+a:hover{
+    color: blueviolet;
+    background-color: black;
+}
+a:active{
+    color: blue;
+}
+a:checked{
+    color: bisque;
+}
+
+.form form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px 30px;
+    align-items: center;
+}
+.form form label{
+     text-align: left;
+     width: 750  px;
+}
+.form form input, .form form select{
+    width: 100%;
+    padding: 8px 12px;
+    box-sizing: border-box;
+    cursor: pointer;
+    text-align: center;
+}
+.form form input[type="submit"]{
+    grid-column: span 2;
+    background-color: rgba(131, 163, 173, 0.411);
+    border: none;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+}
